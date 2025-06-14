@@ -27,6 +27,29 @@ go build -o program main.go
 ./program
 ```
 
+## Verifying Build Provenance
+
+The build workflow of this project generates SLSA (Supply-chain Levels for Software Artifacts) provenance. The `verify-provenance.sh` script allows you to verify the authenticity and integrity of the built artifacts.
+
+### Prerequisites
+- Install the SLSA verifier tool
+- Built artifacts (`program-linux-amd64` and its provenance file `program-linux-amd64.intoto.jsonl`)
+
+### Usage
+
+```bash
+# Make the script executable (first time only)
+chmod +x verify-provenance.sh
+
+# Verify the provenance
+./verify-provenance.sh <source-tag>
+```
+
+The script verifies:
+- The presence of required files (artifact and provenance)
+- The SLSA verifier installation
+- The authenticity of the build artifact against its provenance
+
 ## Directory Structure
 
 - `basics/` - Fundamental Go concepts
