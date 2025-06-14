@@ -4,8 +4,9 @@
 // - Basic Go data types (numeric, string, boolean, complex)
 // - Group declaration of variables using var blocks
 //
-// This file is part of the basics package and provides a practical
-// overview of Go's type system through the DataTypes() function.
+// This file is part of the basics package, which contains fundamental
+// examples of Go programming concepts.
+// DataTypes() - A function that demonstrates Go's basic data types.
 package basics
 
 import "fmt"
