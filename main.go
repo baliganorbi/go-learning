@@ -5,6 +5,7 @@ package main
 // fmt package provides formatting and printing functions
 import (
 	"baliganorbi/learning/basics"
+	"fmt"
 )
 
 // main() is the entry point of our program.
@@ -12,8 +13,12 @@ import (
 func main() {
 
 	// 01_hello - Hello World example
+	fmt.Println("== 01_hello - Hello World example ==")
 	basics.Hello()
+	fmt.Println()
 
 	// 02_data-types - Demonstrates Go's basic data types
+	fmt.Println("== 02_data-types - Demonstrates Go's basic data types ==")
 	basics.DataTypes()
+	fmt.Println()
 }
