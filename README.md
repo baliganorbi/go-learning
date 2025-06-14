@@ -1,13 +1,38 @@
 # Go Learning Journey
 
-This repository contains my progress learning the Go programming language, organized by topics.
+This repository contains my progress learning the Go programming language, organized by topics. The project is structured as a single Go module with multiple packages, each focusing on different aspects of Go programming.
+
+## Project Structure
+
+- `main.go` - The main program that demonstrates all examples
+- `build_and_run.sh` - Shell script to build and run the program
+- `go.mod` - Go module definition file
+
+## Running the Examples
+
+You can run all examples using the build script:
+
+```bash
+# Make the script executable (first time only)
+chmod +x build_and_run.sh
+
+# Run the examples
+./build_and_run.sh
+```
+
+Or manually build and run:
+
+```bash
+go build -o program main.go
+./program
+```
 
 ## Directory Structure
 
 - `basics/` - Fundamental Go concepts
-  - Variables and types
+  - Hello World
+  - Data types
   - Control structures (if, for, switch)
-  - Basic input/output
   
 - `functions/` - Working with functions
   - Function declarations
@@ -46,18 +71,18 @@ This repository contains my progress learning the Go programming language, organ
   
 - `common/` - Shared utilities and helpers
 
-## How to Run Examples
+## Package Organization
 
-Each directory contains multiple `.go` files demonstrating different concepts. To run an example:
+Each topic is organized as a separate package:
 
-```bash
-cd directory_name
-go run filename.go
+- Files in topic directories (like `basics/`, `functions/`, etc.) are part of their respective packages
+- Each file demonstrates specific concepts and provides reusable functions
+- The main program (`main.go`) imports these packages and demonstrates their usage
+
+For example:
+```go
+import (
+    "baliganorbi/learning/basics"    // Import basics package
+    "baliganorbi/learning/functions" // Import functions package
+)
 ```
-
-## Package Names
-
-Each directory follows these package naming conventions:
-- Main programs use `package main`
-- Library code uses the directory name as the package name
-- Test files use the same package name with `_test` suffix
