@@ -21,4 +21,9 @@ func main() {
 	fmt.Println("== 02_data-types - Demonstrates Go's basic data types ==")
 	basics.DataTypes()
 	fmt.Println()
+
+	// 03_controls - Demonstrates control structures
+	fmt.Println("== 03_controls - Demonstrates control structures ==")
+	basics.Controls()
+	fmt.Println()
 }
