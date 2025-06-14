@@ -34,5 +34,5 @@ dist/
 .env
 .env.local
 
-# Compiled binaries
-program
+# Compiled binaries and downloaded artifacts
+program-*
