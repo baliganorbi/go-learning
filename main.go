@@ -32,4 +32,9 @@ func main() {
 	fmt.Println("== 01_func - Demonstrates function features ==")
 	functions.DemoFunctions()
 	fmt.Println()
+
+	// 02_methods - Demonstrates method declarations and usage
+	fmt.Println("== 02_methods - Demonstrates method declarations and usage ==")
+	functions.DemoMethods()
+	fmt.Println()
 }
