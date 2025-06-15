@@ -5,6 +5,7 @@ package main
 // fmt package provides formatting and printing functions
 import (
 	"baliganorbi/learning/basics"
+	"baliganorbi/learning/functions"
 	"fmt"
 )
 
@@ -25,5 +26,10 @@ func main() {
 	// 03_controls - Demonstrates control structures
 	fmt.Println("== 03_controls - Demonstrates control structures ==")
 	basics.Controls()
+	fmt.Println()
+
+	// 01_func - Demonstrates function features
+	fmt.Println("== 01_func - Demonstrates function features ==")
+	functions.DemoFunctions()
 	fmt.Println()
 }

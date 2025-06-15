@@ -17,7 +17,7 @@ func Controls() {
 	// 1. Standard for loop
 	fmt.Println("Standard for loop (1 to 3):")
 	for i := 1; i <= 3; i++ {
-		fmt.Printf("  Count: %d\n", i)
+		fmt.Printf("  * Count: %d\n", i)
 	}
 
 	// 2. For loop as while
@@ -39,17 +39,17 @@ func Controls() {
 	fmt.Println("\nBasic if statement:")
 	number := 7
 	if number%2 == 0 {
-		fmt.Printf("  %d is even\n", number)
+		fmt.Printf("  * %d is even\n", number)
 	} else {
-		fmt.Printf("  %d is odd\n", number)
+		fmt.Printf("  * %d is odd\n", number)
 	}
 
 	// 5. If with initialization
 	fmt.Println("\nIf statement with initialization:")
 	if score := 85; score >= 70 {
-		fmt.Printf("  Score %d: Passed!\n", score)
+		fmt.Printf("  * Score %d: Passed!\n", score)
 	} else {
-		fmt.Printf("  Score %d: Failed\n", score)
+		fmt.Printf("  * Score %d: Failed\n", score)
 	}
 
 	// 6. Basic switch
