@@ -1,4 +1,5 @@
 [![CodeQL](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql)
+![GitHub Release](https://img.shields.io/github/v/release/baliganorbi/go-learning)
 
 # Go Learning Journey
 
