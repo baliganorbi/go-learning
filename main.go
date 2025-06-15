@@ -37,4 +37,9 @@ func main() {
 	fmt.Println("== 02_methods - Demonstrates method declarations and usage ==")
 	functions.DemoMethods()
 	fmt.Println()
+
+	// 03_interfaces - Demonstrates interfaces
+	fmt.Println("== 03_interfaces - Demonstrates interfaces ==")
+	functions.DemoInterfaces()
+	fmt.Println()
 }
