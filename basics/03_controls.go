@@ -67,7 +67,7 @@ func Controls() {
 		fmt.Println("  * Another day")
 	}
 
-	// 2. Switch with condition
+	// 7. Switch with condition
 	age := 18
 	fmt.Println("\nSwitch with condition:")
 	fmt.Printf("  Age: %d\n", age)
@@ -81,4 +81,23 @@ func Controls() {
 	default:
 		fmt.Println("  * Senior")
 	}
+
+	// 8. Switch with type
+	fmt.Println("\nSwitch with type:")
+	myType := func(i interface{}) {
+		switch t := i.(type) {
+		case int:
+			fmt.Printf("  * Integer: %d\n", t)
+		case string:
+			fmt.Printf("  * String: %s\n", t)
+		case bool:
+			fmt.Printf("  * Boolean: %t\n", t)
+		default:
+			fmt.Printf("  * Unknown type: %T\n", t)
+		}
+	}
+	myType(42)
+	myType("Hello")
+	myType(true)
+	myType(3.14)
 }
