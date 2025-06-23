@@ -65,15 +65,15 @@ The script verifies:
   - Methods
   - Interfaces
   
-- `concurrency/` - Concurrent programming
-  - Goroutines
-  - Channels
-  - Select statements
-  
 - `data-structures/` - Data structures in Go
   - Arrays and Slices
   - Maps
   - Structs
+
+- `concurrency/` - Concurrent programming
+  - Goroutines
+  - Channels
+  - Select statements
   
 - `packages/` - Package management
   - Creating packages
