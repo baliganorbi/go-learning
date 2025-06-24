@@ -50,4 +50,22 @@ func DemoArraysAndSlices() {
 	for i, v := range nums {
 		fmt.Printf("    nums[%d] = %d\n", i, v)
 	}
+
+	// 8. Multi-dimensional arrays
+	multiArr := [2][2]int{{1, 2}, {3, 4}}
+	fmt.Println("  Multi-dimensional array:")
+	for i, row := range multiArr {
+		for j, val := range row {
+			fmt.Printf("    * multiArr[%d][%d] = %d\n", i, j, val)
+		}
+	}
+
+	// 9. Multi-dimensional slices
+	multiSlice := [][]int{{1, 2}, {3, 4, 5}}
+	fmt.Println("  Multi-dimensional slice:")
+	for i, row := range multiSlice {
+		for j, val := range row {
+			fmt.Printf("    * multiSlice[%d][%d] = %d\n", i, j, val)
+		}
+	}
 }
