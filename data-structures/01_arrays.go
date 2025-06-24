@@ -3,6 +3,7 @@
 // - Slice creation, slicing, and appending
 // - Built-in functions for slices (len, cap, append, copy)
 // - Iterating over arrays and slices
+// - Multi-dimensional arrays and slices
 //
 // This file is part of the data-structures package, which shows different
 // ways to work with collections in Go.

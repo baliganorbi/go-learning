@@ -49,4 +49,9 @@ func main() {
 	datastructures.DemoArraysAndSlices()
 	fmt.Println()
 
+	// 02_maps - Demonstrates maps
+	fmt.Println("== Data Structures 02_maps - Demonstrates maps ==")
+	datastructures.DemoMaps()
+	fmt.Println()
+
 }
