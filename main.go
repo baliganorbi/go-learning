@@ -54,4 +54,9 @@ func main() {
 	datastructures.DemoMaps()
 	fmt.Println()
 
+	// 03_structs - Demonstrates structs
+	fmt.Println("== Data Structures 03_structs - Demonstrates structs ==")
+	datastructures.DemoStructs()
+	fmt.Println()
+
 }
