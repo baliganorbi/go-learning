@@ -16,7 +16,7 @@ import (
 // Extracts the short name from the lesson title using regex.
 // Example: "== Basics 01_hello - Hello World example ==" -> "Basics 01_hello"
 func shortNameFromTitle(title string) string {
-	re := regexp.MustCompile(`==\s*(.*?)\s*-`)
+	re := regexp.MustCompile(`==\s*(.*?) \s*-`)
 	matches := re.FindStringSubmatch(title)
 	if len(matches) >= 2 {
 		return strings.TrimSpace(matches[1])
@@ -44,6 +44,9 @@ func main() {
 		{"== Data Structures 02_maps - Demonstrates maps ==", datastructures.DemoMaps},
 		{"== Data Structures 03_structs - Demonstrates structs ==", datastructures.DemoStructs},
 		{"== Concurrency 01_goroutines - Demonstrates Goroutines ==", concurrency.DemoGoroutines},
+		{"== Concurrency 01_url-status-check - Demonstrates URL status check using Goroutines ==", concurrency.DemoURLStatusCheck},
+		{"== Concurrency 02_channels - Demonstrates Channels ==", concurrency.DemoChannels},
+		{"== Concurrency 02_worker-pool - Demonstrates Worker Pool pattern ==", concurrency.DemoWorkerPool},
 	}
 
 	fmt.Println("Available Lessons:")
