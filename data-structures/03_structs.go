@@ -59,5 +59,6 @@ func DemoStructs() {
 	e := Employee{Person: alice, Position: "Developer"}
 	fmt.Printf("  Employee: %+v\n", e)
 	// Access embedded fields directly
+	e.Greet() // Calls Person's Greet method
 	fmt.Printf("    * %s is a %s\n", e.Name, e.Position)
 }
