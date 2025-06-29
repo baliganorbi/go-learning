@@ -59,7 +59,7 @@ func DemoWorkerPool() {
 	numJobs := len(urls)
 
 	// 1. Create our two channels: one for jobs and one for results.
-	// These channels are "unbuffered".
+	// These channels are buffered to allow multiple jobs to be sent
 	jobs := make(chan string, numJobs)    // Channel for jobs (URLs)
 	results := make(chan string, numJobs) // Channel for results
 

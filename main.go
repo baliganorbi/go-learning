@@ -47,6 +47,7 @@ func main() {
 		{"== Concurrency 01_url-status-check - Demonstrates URL status check using Goroutines ==", concurrency.DemoURLStatusCheck},
 		{"== Concurrency 02_channels - Demonstrates Channels ==", concurrency.DemoChannels},
 		{"== Concurrency 02_worker-pool - Demonstrates Worker Pool pattern ==", concurrency.DemoWorkerPool},
+		{"== Concurrency 03_select - Demonstrates select statement =", concurrency.DemoSelect},
 	}
 
 	fmt.Println("Available Lessons:")
