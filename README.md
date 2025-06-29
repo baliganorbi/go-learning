@@ -90,11 +90,6 @@ The script verifies:
   - REST APIs
   - JSON handling
   
-- `databases/` - Database interactions
-  - SQL
-  - NoSQL
-  - ORMs
-  
 - `common/` - Shared utilities and helpers
 
 ## Package Organization
