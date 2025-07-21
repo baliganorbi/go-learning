@@ -1,7 +1,7 @@
 [![CodeQL](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql)
 ![GitHub Release](https://img.shields.io/github/v/release/baliganorbi/go-learning)
 
-# Go Learning Journey
+# Go Learning Journey (Modified)
 
 This repository contains my progress learning the Go programming language, organized by topics. The project is structured as a single Go module with multiple packages, each focusing on different aspects of Go programming.
 
