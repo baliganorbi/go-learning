@@ -1,6 +1,6 @@
 [![CodeQL](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/baliganorbi/go-learning/actions/workflows/github-code-scanning/codeql)
 ![GitHub Release](https://img.shields.io/github/v/release/baliganorbi/go-learning)
-[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/{owner}/{repo}/badge)](https://scorecard.dev/viewer/?uri=github.com/{owner}/{repo})
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/baliganorbi/go-learning/badge)](https://scorecard.dev/viewer/?uri=github.com/baliganorbi/go-learning)
 [![SLSA 3](https://slsa.dev/images/gh-badge-level3.svg)](https://slsa.dev)
 
 # Go Learning Journey
